@@ -1,0 +1,18 @@
+.CategoryCard{
+    object-fit: fill;
+    margin: 1rem 1.5rem 0rem 1.5rem;
+}
+
+.CC_img{
+    filter: brightness(0.8);
+}
+.CC_content{
+    cursor: pointer;
+}
+.CC_text{
+    position: relative;
+    top: -13rem;
+    left: 5rem;
+    width: 150px;
+    color: white;
+}

@@ -1,0 +1,13 @@
+.Collections_List{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0rem auto;
+}
+.CollectionsHead{
+    width: 100%;
+    text-align: center;
+    margin: 2rem auto;
+}

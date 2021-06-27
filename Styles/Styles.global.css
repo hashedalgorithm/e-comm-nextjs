@@ -1,0 +1,16 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arapey',serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}

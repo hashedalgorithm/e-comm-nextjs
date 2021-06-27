@@ -1,0 +1,41 @@
+.Navbar{
+    height: 80px;
+    font-family: Arapey, serif;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    border: 1px solid grey;
+    color: rgb(80, 80, 80);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section1{
+    cursor: pointer;
+}
+.section1logo{
+    margin: 0rem 1.5rem;
+}
+.Navbar_item_active{
+    color: black;
+    margin-right: 1rem;
+    padding: 0.2rem 0.5rem;
+}
+.Navbar_item{
+    margin-right: 1rem;
+    padding: 0.2rem 0.5rem;
+}
+.Navbar_item:hover , .Navbar_item_active:hover{
+    text-decoration: underline;
+}
+.Navbar_list{
+    display: flex;
+    flex-direction: row;
+}
+.Navbar_list_right{
+    margin-right: 1rem;
+    padding: 0.2rem 0.5rem;
+}
+.Navbar_list_right:hover{
+    color: grey;
+}

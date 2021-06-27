@@ -8,3 +8,28 @@ export type User = {
   id: number
   name: string
 }
+export type NavbarItem = {
+  id: number;
+  name: string
+  isActive: boolean
+  link:string
+}
+export type Categories = {
+  id:number;
+  name: string;
+  path: string;
+  img: string;
+}
+
+export type Productobjecttype = {
+  image: string;
+  id: number;
+  description: string;
+  price: number;
+  title: string;
+  category: string;
+};
+export interface ProductPageProps {
+  title: string | null;
+  productData: Array<Productobjecttype>;
+}

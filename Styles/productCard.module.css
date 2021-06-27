@@ -1,0 +1,14 @@
+.productCard{
+    width: 280px;
+    height: 400px;
+    cursor: pointer;
+    object-fit: contain;
+    margin: 1rem 2.5rem;
+}
+.soldout{
+    padding: 0.5rem;
+    width: 50px;
+    font-size: 0.7em;
+    background-color: white;
+    border: 1px solid black;
+}
